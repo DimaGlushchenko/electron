@@ -1687,7 +1687,7 @@ describe('BrowserWindow module', function () {
     })
   })
 
-  describe('new-window event', function () {
+  describe.only('new-window event', function () {
     if (isCI && process.platform === 'darwin') {
       return
     }
